@@ -1,7 +1,7 @@
 ---
 - name: Deploy the Greeting application
   hosts: tradelive
- become: yes
+  become: yes
 
   tasks:
     - name: Install Flask and Gunicorn
